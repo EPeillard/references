@@ -1,21 +1,21 @@
 # The set of languages for which implicit dependencies are needed:
-set(CMAKE_DEPENDS_LANGUAGES
+SET(CMAKE_DEPENDS_LANGUAGES
   "CXX"
   )
 # The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/etienne/Prog/test/octave/main.cpp" "/home/etienne/Prog/test/octave/bin/CMakeFiles/hello.dir/main.cpp.o"
+SET(CMAKE_DEPENDS_CHECK_CXX
+  "/home/labo/Prog RV/references/octave/main.cpp" "/home/labo/Prog RV/references/octave/bin/CMakeFiles/hello.dir/main.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
-
-# The include file search paths:
-set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/usr/include/octave-4.0.0/octave"
-  )
+SET(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Targets to which this target links.
-set(CMAKE_TARGET_LINKED_INFO_FILES
+SET(CMAKE_TARGET_LINKED_INFO_FILES
   )
 
-# Fortran module output directory.
-set(CMAKE_Fortran_TARGET_MODULE_DIR "")
+# The include file search paths:
+SET(CMAKE_C_TARGET_INCLUDE_PATH
+  "/usr/include/octave-3.8.1/octave"
+  )
+SET(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
+SET(CMAKE_Fortran_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
+SET(CMAKE_ASM_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
